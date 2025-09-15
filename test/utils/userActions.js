@@ -23,7 +23,7 @@ let waitTimeOut = {
 };
 
 class userActions {
-	async clickOn(element, extraTime) {
+async clickOn(element, extraTime) {
 		const webelement = await $(element);
 		await webelement.waitForDisplayed({ timeout: 5000 });
 		await webelement.click();
