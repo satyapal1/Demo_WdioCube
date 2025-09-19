@@ -17,6 +17,7 @@ class innago_login {
 		await userActions.enterText(this.locator.userName, username);
 		await userActions.enterText(this.locator.passWd, password);
 		await userActions.clickOn(this.locator.signInButton);
+		
 	}
 
 	async launchInnagoUrl() {
